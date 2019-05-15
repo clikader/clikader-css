@@ -1,0 +1,37 @@
+// define mixins
+@mixin transition($prop, $time) {
+  -webkit-transition: $prop $time;
+  -moz-transition: $prop $time;
+  -ms-transition: $prop $time;
+  -o-transition: $prop $time;
+  transition: $prop $time;
+}
+
+@mixin box-sizing($prop) {
+  -webkit-box-sizing: $prop;
+  -moz-box-sizing: $prop;
+  box-sizing: $prop;
+}
+
+%box {
+  padding: 1%;
+  margin: auto;
+  
+  @media screen and (max-width: 480px) {
+  padding: 10px;
+  }
+
+}
+
+%button {
+  display: block;
+  min-width: 106px;
+  min-height: 38px;
+  border: none;
+  border-radius: 5px;
+  @include transition(all, 0.15s);
+  margin: 5px 5px;
+  font-size: 12px;
+  padding: 5px 12px;
+  letter-spacing: 1px;
+}

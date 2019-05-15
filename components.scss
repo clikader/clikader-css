@@ -1,0 +1,26 @@
+.full-width {
+  width: 100% !important;
+  @include box-sizing(border-box);
+}
+
+.box {
+  @extend %box;
+}
+
+.container {
+  @extend %box;
+  width: 95%;
+}
+
+.container-center {
+  @extend %box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  @extend %button;
+}

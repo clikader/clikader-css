@@ -1,0 +1,25 @@
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
+// support scss files
+@import "colors";
+@import "basics";
+@import "components";
+
+// define most used vars here
+$regular-font: 'Lato', sans-serif;
+$title-font: 'Lora', serif;
+
+// Global settings for start page, no !important will be used here
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+p, a, button {
+  font-family: $regular-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $title-font;
+}

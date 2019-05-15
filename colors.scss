@@ -1,0 +1,159 @@
+// regular color
+$black: rgb(12, 12, 12);
+$green: rgb(12, 146, 0);
+$yellow: rgb(255, 229, 1);
+$orange: rgb(254, 124, 0);
+$red: rgb(234, 16, 66);
+$pink: rgb(246, 56, 105);
+$purple: rgb(146, 69, 118);
+$blue :rgb(57, 140, 194);
+$grey: rgb(213, 213, 213);
+$light: rgb(242, 242, 242);
+
+// darker color
+$dark-black: rgb(7, 7, 7);
+$dark-green: rgb(12, 140, 0);
+$dark-yellow: rgb(255, 224, 1);
+$dark-orange: rgb(254, 118, 0);
+$dark-red: rgb(224, 16, 66);
+$dark-blue: rgb(57, 140, 200);
+$dark-grey: rgb(203, 203, 203);
+$dark-light: rgb(230, 230, 230);
+
+// active color
+$active-black: rgb(2, 2, 2);
+$active-green: rgb(12, 130, 0);
+$active-yellow: rgb(255, 220, 1);
+$active-orange: rgb(254, 112, 0);
+$active-red: rgb(218, 16, 66);
+$active-blue: rgb(57, 140, 210);
+$active-grey: rgb(199, 199, 199);
+$active-light: rgb(220, 220, 220);
+
+// universal
+.light {
+  background-color: $light;
+  color: $black;
+}
+
+.info {
+  background-color: $blue;
+  color: $light;
+}
+
+.danger {
+  background-color: $red;
+  color: $light;
+}
+
+.success {
+  background-color: $green;
+  color: $light;
+}
+
+.warning {
+  background-color: $yellow;
+  color: $black;
+}
+
+.dark {
+  background-color: $black;
+  color: $light;
+}
+
+.light:hover {
+  background-color: $dark-light;
+  color: $black;
+}
+
+.info:hover {
+  background-color: $dark-blue;
+  color: $light;
+}
+
+.danger:hover {
+  background-color: $dark-red;
+  color: $light;
+}
+
+.success:hover {
+  background-color: $dark-green;
+  color: $light;
+}
+
+.warning:hover {
+  background-color: $dark-yellow;
+  color: $black;
+}
+
+.dark:hover {
+  background-color: $dark-black;
+  color: $light;
+}
+
+.light:active {
+  background-color: $active-light;
+  color: $black;
+}
+
+.info:active {
+  background-color: $active-blue;
+  color: $light;
+}
+
+.danger:active {
+  background-color: $active-red;
+  color: $light;
+}
+
+.success:active {
+  background-color: $active-green;
+  color: $light;
+}
+
+.warning:active {
+  background-color: $active-yellow;
+  color: $black;
+}
+
+.dark:active {
+  background-color: $active-black;
+  color: $light;
+}
+
+// boxes
+.box-light {
+  background-color: $light;
+  color: $black;
+  border-radius: 5px;
+}
+
+.box-info {
+  background-color: $blue;
+  color: $light;
+  border-radius: 5px;
+}
+
+.box-danger {
+  background-color: $red;
+  color: $light;
+  border-radius: 5px;
+}
+
+.box-success {
+  background-color: $green;
+  color: $light;
+  border-radius: 5px;
+}
+
+.box-warning {
+  background-color: $yellow;
+  color: $black;
+  border-radius: 5px;
+}
+
+.box-dark {
+  background-color: $black;
+  color: $light;
+  border-radius: 5px;
+}

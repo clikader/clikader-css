@@ -56,3 +56,8 @@
   @extend %nav-vertical;
   align-content: space-between;
 }
+
+.nav-section {
+  display: block;
+  margin: 0 10px;
+}

@@ -193,35 +193,29 @@ $active-light: darken($light, 8%);
 .box-light {
   background-color: $light;
   color: $black;
-  border-radius: 5px;
 }
 
 .box-info {
   background-color: $blue;
   color: $light;
-  border-radius: 5px;
 }
 
 .box-danger {
   background-color: $red;
   color: $light;
-  border-radius: 5px;
 }
 
 .box-success {
   background-color: $green;
   color: $light;
-  border-radius: 5px;
 }
 
 .box-warning {
   background-color: $yellow;
   color: $black;
-  border-radius: 5px;
 }
 
 .box-dark {
   background-color: $black;
   color: $light;
-  border-radius: 5px;
 }

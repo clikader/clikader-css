@@ -153,37 +153,31 @@
 .box-light {
   background-color: #f2f2f2;
   color: #232323;
-  border-radius: 5px;
 }
 
 .box-info {
   background-color: #398cc2;
   color: #f2f2f2;
-  border-radius: 5px;
 }
 
 .box-danger {
   background-color: #ea1042;
   color: #f2f2f2;
-  border-radius: 5px;
 }
 
 .box-success {
   background-color: #0c9200;
   color: #f2f2f2;
-  border-radius: 5px;
 }
 
 .box-warning {
   background-color: #ffe501;
   color: #232323;
-  border-radius: 5px;
 }
 
 .box-dark {
   background-color: #232323;
   color: #f2f2f2;
-  border-radius: 5px;
 }
 
 .container-center, .container, .box {
@@ -226,6 +220,12 @@
   min-height: 40px;
   flex-direction: row;
   align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .nav-lr, .nav-right, .nav-middle, .nav, .nav-left {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .nav-vertical-bottom, .nav-vertical-middle, .nav-vertical, .nav-vertical-top {
@@ -273,6 +273,11 @@
   align-content: space-between;
 }
 
+.nav-section {
+  display: block;
+  margin: 0 10px;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -284,6 +289,26 @@ p, a, button {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lora", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #398cc2;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3481b2;
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
 }
 
 /*# sourceMappingURL=Clikader.css.map */

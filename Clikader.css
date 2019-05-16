@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700");
+.light {
+  background-color: #f2f2f2;
+  color: #232323;
+}
+
+.info {
+  background-color: #398cc2;
+  color: #f2f2f2;
+}
+
+.danger {
+  background-color: #ea1042;
+  color: #f2f2f2;
+}
+
+.success {
+  background-color: #0c9200;
+  color: #f2f2f2;
+}
+
+.warning {
+  background-color: #ffe501;
+  color: #232323;
+}
+
+.dark {
+  background-color: #232323;
+  color: #f2f2f2;
+}
+
+.orange {
+  background-color: #fe7c00;
+  color: #f2f2f2;
+}
+
+.grey {
+  background-color: #d5d5d5;
+  color: #232323;
+}
+
+.pink {
+  background-color: #f63869;
+  color: #f2f2f2;
+}
+
+.purple {
+  background-color: #924576;
+  color: #f2f2f2;
+}
+
+.light:hover {
+  background-color: #e8e8e8;
+  color: #232323;
+}
+
+.info:hover {
+  background-color: #3481b2;
+  color: #f2f2f2;
+}
+
+.danger:hover {
+  background-color: #d20e3b;
+  color: #f2f2f2;
+}
+
+.success:hover {
+  background-color: #0a7e00;
+  color: #f2f2f2;
+}
+
+.warning:hover {
+  background-color: #f6dd00;
+  color: #232323;
+}
+
+.dark:hover {
+  background-color: #424242;
+  color: #f2f2f2;
+}
+
+.orange:hover {
+  background-color: #f47700;
+  color: #f2f2f2;
+}
+
+.grey:hover {
+  background-color: #c8c8c8;
+  color: #232323;
+}
+
+.pink:hover {
+  background-color: #f52057;
+  color: #f2f2f2;
+}
+
+.purple:hover {
+  background-color: #88406e;
+  color: #f2f2f2;
+}
+
+.light:active {
+  background-color: #dedede;
+  color: #232323;
+}
+
+.info:active {
+  background-color: #3178a6;
+  color: #f2f2f2;
+}
+
+.danger:active {
+  background-color: #c40d37;
+  color: #f2f2f2;
+}
+
+.success:active {
+  background-color: #096e00;
+  color: #f2f2f2;
+}
+
+.warning:active {
+  background-color: #e7cf00;
+  color: #232323;
+}
+
+.dark:active {
+  background-color: #282828;
+  color: #f2f2f2;
+}
+
+.orange:active {
+  background-color: #e57000;
+  color: #f2f2f2;
+}
+
+.grey:active {
+  background-color: #c1c1c1;
+  color: #232323;
+}
+
+.pink:active {
+  background-color: #f4114c;
+  color: #f2f2f2;
+}
+
+.purple:active {
+  background-color: #7a3a62;
+  color: #f2f2f2;
+}
+
+.box-light {
+  background-color: #f2f2f2;
+  color: #232323;
+  border-radius: 5px;
+}
+
+.box-info {
+  background-color: #398cc2;
+  color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.box-danger {
+  background-color: #ea1042;
+  color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.box-success {
+  background-color: #0c9200;
+  color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.box-warning {
+  background-color: #ffe501;
+  color: #232323;
+  border-radius: 5px;
+}
+
+.box-dark {
+  background-color: #232323;
+  color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.container-center, .container, .box {
+  padding: 5px 1%;
+  margin: auto;
+}
+@media screen and (max-width: 480px) {
+  .container-center, .container, .box {
+    padding: 5px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+.button {
+  display: block;
+  min-width: 106px;
+  min-height: 38px;
+  border: none;
+  border-radius: 5px;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+  margin: 5px 5px;
+  font-size: 12px;
+  padding: 5px 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.nav-lr, .nav-right, .nav-middle, .nav, .nav-left {
+  display: flex;
+  padding: 5px 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 40px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-vertical-bottom, .nav-vertical-middle, .nav-vertical, .nav-vertical-top {
+  display: flex;
+  padding: 15px 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.full-width {
+  width: 100% !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav-middle {
+  align-items: center;
+}
+
+.nav-right {
+  align-items: flex-end;
+}
+
+.nav-lr {
+  justify-content: space-between;
+}
+
+.nav-vertical-middle {
+  justify-content: center;
+}
+
+.nav-vertical-bottom {
+  align-content: space-between;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+p, a, button {
+  font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lora", serif;
+}
+
+/*# sourceMappingURL=Clikader.css.map */

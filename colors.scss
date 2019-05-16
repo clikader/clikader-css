@@ -1,5 +1,5 @@
 // regular color
-$black: rgb(12, 12, 12);
+$black: rgb(35, 35, 35);
 $green: rgb(12, 146, 0);
 $yellow: rgb(255, 229, 1);
 $orange: rgb(254, 124, 0);
@@ -11,24 +11,28 @@ $grey: rgb(213, 213, 213);
 $light: rgb(242, 242, 242);
 
 // darker color
-$dark-black: rgb(7, 7, 7);
-$dark-green: rgb(12, 140, 0);
-$dark-yellow: rgb(255, 224, 1);
-$dark-orange: rgb(254, 118, 0);
-$dark-red: rgb(224, 16, 66);
-$dark-blue: rgb(57, 140, 200);
-$dark-grey: rgb(203, 203, 203);
-$dark-light: rgb(230, 230, 230);
+$dark-black: lighten($black, 12%);
+$dark-green: darken($green, 4%);
+$dark-yellow: darken($yellow, 2%);
+$dark-orange: darken($orange, 2%);
+$dark-red: darken($red, 5%);
+$dark-pink: darken($pink, 5%);
+$dark-purple: darken($purple, 3%);
+$dark-blue: darken($blue, 4%);
+$dark-grey: darken($grey, 5%);
+$dark-light: darken($light, 4%);
 
 // active color
-$active-black: rgb(2, 2, 2);
-$active-green: rgb(12, 130, 0);
-$active-yellow: rgb(255, 220, 1);
-$active-orange: rgb(254, 112, 0);
-$active-red: rgb(218, 16, 66);
-$active-blue: rgb(57, 140, 210);
-$active-grey: rgb(199, 199, 199);
-$active-light: rgb(220, 220, 220);
+$active-black: lighten($black, 2%);
+$active-green: darken($green, 7%);
+$active-yellow: darken($yellow, 5%);
+$active-orange: darken($orange, 5%);
+$active-red: darken($red, 8%);
+$active-pink: darken($pink, 8%);
+$active-purple: darken($purple, 7%);
+$active-blue: darken($blue, 7%);
+$active-grey: darken($grey, 8%);
+$active-light: darken($light, 8%);
 
 // universal
 .light {
@@ -61,6 +65,28 @@ $active-light: rgb(220, 220, 220);
   color: $light;
 }
 
+.orange {
+  background-color: $orange;
+  color: $light;
+}
+
+.grey {
+  background-color: $grey;
+  color: $black;
+}
+
+.pink {
+  background-color: $pink;
+  color: $light;
+}
+
+.purple {
+  background-color: $purple;
+  color: $light;
+}
+
+// hovers
+
 .light:hover {
   background-color: $dark-light;
   color: $black;
@@ -90,6 +116,28 @@ $active-light: rgb(220, 220, 220);
   background-color: $dark-black;
   color: $light;
 }
+.orange:hover {
+  background-color: $dark-orange;
+  color: $light;
+}
+
+.grey:hover {
+  background-color: $dark-grey;
+  color: $black;
+}
+
+.pink:hover {
+  background-color: $dark-pink;
+  color: $light;
+}
+
+.purple:hover {
+  background-color: $dark-purple;
+  color: $light;
+}
+
+// actives
+
 
 .light:active {
   background-color: $active-light;
@@ -118,6 +166,26 @@ $active-light: rgb(220, 220, 220);
 
 .dark:active {
   background-color: $active-black;
+  color: $light;
+}
+
+.orange:active {
+  background-color: $active-orange;
+  color: $light;
+}
+
+.grey:active {
+  background-color: $active-grey;
+  color: $black;
+}
+
+.pink:active {
+  background-color: $active-pink;
+  color: $light;
+}
+
+.purple:active {
+  background-color: $active-purple;
   color: $light;
 }
 

@@ -9,7 +9,6 @@
 
 .container {
   @extend %box;
-  width: 95%;
 }
 
 .container-center {
@@ -23,4 +22,37 @@
 
 .button {
   @extend %button;
+}
+
+.nav, .nav-left {
+  @extend %nav;
+}
+
+.nav-middle {
+  @extend %nav;
+  align-items: center;
+}
+
+.nav-right {
+  @extend %nav;
+  align-items: flex-end;
+}
+
+.nav-lr {
+  @extend %nav;
+  justify-content: space-between;
+}
+
+.nav-vertical, .nav-vertical-top {
+  @extend %nav-vertical;
+}
+
+.nav-vertical-middle {
+  @extend %nav-vertical;
+  justify-content: center;
+}
+
+.nav-vertical-bottom {
+  @extend %nav-vertical;
+  align-content: space-between;
 }

@@ -180,6 +180,26 @@
   color: #f2f2f2;
 }
 
+.box-orange {
+  background-color: #fe7c00;
+  color: #f2f2f2;
+}
+
+.box-grey {
+  background-color: #d5d5d5;
+  color: #232323;
+}
+
+.box-pink {
+  background-color: #f63869;
+  color: #f2f2f2;
+}
+
+.box-purple {
+  background-color: #924576;
+  color: #f2f2f2;
+}
+
 .container-center, .container, .box {
   padding: 5px 1%;
   margin: auto;
@@ -238,6 +258,21 @@
   justify-content: center;
 }
 
+input,
+input[type=text],
+input[type=search],
+input[type=email],
+input[type=number],
+input[type=tel],
+input[type=url] {
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 2px 5px;
+}
+
 .full-width {
   width: 100% !important;
   -webkit-box-sizing: border-box;
@@ -276,6 +311,25 @@
 .nav-section {
   display: block;
   margin: 0 10px;
+}
+
+input,
+input[type=text],
+input[type=search],
+input[type=email],
+input[type=number],
+input[type=tel],
+input[type=url] {
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+input:focus {
+  border-color: #f2f2f2;
+  box-shadow: 0 0 5px #398cc2;
 }
 
 html, body {

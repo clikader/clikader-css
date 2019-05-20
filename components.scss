@@ -61,3 +61,19 @@
   display: block;
   margin: 0 10px;
 }
+
+input,
+input[type='text'],
+input[type='search'],
+input[type='email'],
+input[type='number'],
+input[type='tel'],
+input[type='url'] {
+  @extend %input-box;
+  @include transition(all, 0.15s)
+}
+
+input:focus {
+  border-color: $light;
+  box-shadow: 0 0 5px $blue;
+}

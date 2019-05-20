@@ -7,8 +7,8 @@
 
 $(document).ready(function() {
     // initialize things
-    equalizeNavWidth();
     calculateEasyClass();
+    equalizeNavWidth();
 });
 
 $(window).on("resize", function() {
@@ -23,9 +23,9 @@ function equalizeNavWidth() {
     
     navSections.each(function() {
         let currentWidth = parseFloat($(this).width());
-        if(currentWidth >= maxWidth) (
-            maxWidth = currentWidth
-        )
+        if(currentWidth >= maxWidth) {
+            maxWidth = currentWidth;
+        }
     });
 
     // console.log("MAX: " + maxWidth);

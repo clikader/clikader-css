@@ -60,3 +60,10 @@
   flex-direction: column;
   justify-content: center;
 }
+
+%input-box {
+  border: 1px solid $grey;
+  border-radius: 5px;
+  @include box-sizing(border-box);
+  padding: 2px 5px;
+}

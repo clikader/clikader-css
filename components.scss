@@ -3,15 +3,13 @@
   @include box-sizing(border-box);
 }
 
+.container,
 .box {
   @extend %box;
 }
 
-.container {
-  @extend %box;
-}
-
-.container-center {
+.container-center,
+.box-center {
   @extend %box;
   display: flex;
   flex-direction: column;

@@ -1,4 +1,4 @@
-#CLiKader CSS Template
+# CLiKader CSS Template
 
 This project is not for replacing famous and widely used frontend frameworks such as [BootStrap](https://getbootstrap.com/) or [Foundation](https://foundation.zurb.com/), in fact, I love them :\)
 
@@ -6,7 +6,7 @@ However, their basic settings are not perfect, especially when you see their def
 
 I had to implement the same CSS code or modify the sass code again and again before starting every project, and that's how this project was started: I need a small pre-configured set of styles to override the default colors, basic nav bars, better fonts ...
 
-##HOW to Use
+## HOW to Use
 
 There is an [index.html](index.html) file showing all redesigned components, if you found this project at early stage, yes I admit the files and folders are messy, due to the sass watcher watching every file...
 
@@ -36,7 +36,7 @@ Start a project like you usually do, then download this project and put the CSS 
 
 ```
 
-##Components
+## Components
 
 ### Colors
 
@@ -57,7 +57,7 @@ Directly using color class will give all effected elements a hover color and a a
 <a href="https://google.com" class="info">Google</a>
 ```
 
-###Box
+### Box
 
 Yes there is a box(container) class in these famous frameworks too, so don't worry, it's still the same with just smaller padding style.
 
@@ -90,7 +90,7 @@ Want to give some color to your box just like the alert class in BootStrap? No p
 </div>
 ```
 
-###Button
+### Button
 
 You know how a button works, no need to explain. Oh, use the colors too.
 
@@ -100,11 +100,11 @@ You know how a button works, no need to explain. Oh, use the colors too.
 <button class="button grey">Reset</button>
 ```
 
-###Nav Bar
+### Nav Bar
 
 If you are new to BootStrap, you know that manipulating the nav layout is confusing, how on earth should I place my logo on the left and other stuffs on the right?
 
-####Horizontal Nav
+#### Horizontal Nav
 
 ```html
 <!--Put things on left-->
@@ -130,7 +130,7 @@ If you are new to BootStrap, you know that manipulating the nav layout is confus
 </nav>
 ```
 
-####Vertical Nav
+#### Vertical Nav
 
 ```html
 <!--Put things on top-->
@@ -161,7 +161,7 @@ Try the `nav-section`! Width will be calculated automatically (JS file is needed
 </nav>
 ```
 
-###Others
+### Others
 
 `.full-width` is great to force giving your element a full width
 
